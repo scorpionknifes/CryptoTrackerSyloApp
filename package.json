@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.6.1",
+    "axios": "^0.20.0",
+    "d3-shape": "^2.0.0",
+    "hermes-engine": "^0.4.1",
     "lottie-react-native": "3.1.1",
     "react": "^16.11.0",
     "react-native": "^0.62.0",
@@ -19,9 +22,9 @@
     "react-native-reanimated": "^1.1.0",
     "react-native-sodium": "github:dn3010/react-native-sodium#62c904517476b0fdfdecaf445a557da239b50940",
     "react-native-svg": "^9.4.0",
+    "react-native-svg-charts": "^5.4.0",
     "react-native-vector-icons": "^6.6.0",
-    "react-native-webrtc": "github:dn3010/react-native-webrtc#e3563e2f3e1ff13a337306e392e4aba270d79c12",
-    "hermes-engine": "^0.4.1"
+    "react-native-webrtc": "github:dn3010/react-native-webrtc#e3563e2f3e1ff13a337306e392e4aba270d79c12"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
