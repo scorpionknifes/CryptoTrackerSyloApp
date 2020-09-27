@@ -1,0 +1,8 @@
+{
+  "id": "io.sylo.CryptoTracker",
+  "moduleName": "CryptoTracker",
+  "appName": "CryptoTracker",
+  "iOSBundleDownloadURL": "https://sylo.sylo.io:443/api/v0/cat?arg=QmdDRJxFPY7J9ev7stxuX2MoAaKwF6j9oLrzqXa6n6KbYm",
+  "androidBundleDownloadURL": "https://sylo.sylo.io:443/api/v0/cat?arg=QmY4Q3Tsvf9wsyZbdsbeGKonvAuDs9jJPTYLP2Whs8UNVz",
+  "version": "0.0.6"
+}

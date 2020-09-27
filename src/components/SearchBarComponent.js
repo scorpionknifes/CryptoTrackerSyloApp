@@ -64,7 +64,7 @@ const CryptoBar = (props) => {
 
     return <View style={styles.container} >
         <TouchableOpacity onPress={handleBack}>
-            <Ionicons style={styles.backIcon} name="ios-chevron-back" size={24} color={darkTheme ? '#F6F6F6' : '#495162'} />
+            <Ionicons style={styles.backIcon} name='ios-arrow-back' size={24} color={darkTheme ? '#F6F6F6' : '#495162'} />
         </TouchableOpacity>
         <View style={styles.cryptoContainer}>
             <Image
