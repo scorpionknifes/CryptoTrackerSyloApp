@@ -1,0 +1,39 @@
+{
+  "name": "CryptoTracker",
+  "version": "0.0.5",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "rename": "node ./scripts/renameProject.js",
+    "podinstall": "./scripts/podinstall"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "lottie-react-native": "3.1.1",
+    "react": "^16.11.0",
+    "react-native": "^0.62.0",
+    "react-native-camera": "^3.0.0",
+    "react-native-keychain": "github:dn3010/react-native-keychain#1032082e42a33d9d67f538afe6e4cdffb1b6a512",
+    "react-native-randombytes": "3.5.3",
+    "react-native-reanimated": "^1.1.0",
+    "react-native-sodium": "github:dn3010/react-native-sodium#62c904517476b0fdfdecaf445a557da239b50940",
+    "react-native-svg": "^9.4.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webrtc": "github:dn3010/react-native-webrtc#e3563e2f3e1ff13a337306e392e4aba270d79c12",
+    "hermes-engine": "^0.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/runtime": "^7.6.3",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
