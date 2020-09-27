@@ -36,7 +36,7 @@ const Body = (props) => {
         <SearchBarComponent />
         <TimeSelectComponent />
         {props.scene ? <TrackerScreen /> : <TokenScreen />}
-        <View style={{ borderWidth: 1, position: 'absolute', bottom: 0, alignSelf: 'flex-end' }}>
+        <View style={{ position: 'absolute', bottom: 0, alignSelf: 'flex-end' }}>
             <TouchableOpacity onPress={() => setDarkTheme(!darkTheme)}>
                 <Ionicons name="ios-moon" size={24} color={darkTheme ? '#F6F6F6' : '#495162'} />
             </TouchableOpacity>
