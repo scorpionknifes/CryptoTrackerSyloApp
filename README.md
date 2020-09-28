@@ -2,7 +2,7 @@
 
 Ported from [Crypto Tracker](https://github.com/scorpionknifes/CryptoTracker) using [Sylo App Template](https://www.npmjs.com/package/@sylo/connected-app-cli)
 
-Currently not published yet.
+Published on Sylo Appstore
 
 ![](/images/light_home.png)   |  ![](/images/dark_home.png)  |  ![](/images/light_crypto.png)  |  ![](/images/dark_crypto.png)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
