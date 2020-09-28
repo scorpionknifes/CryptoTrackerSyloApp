@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react'
 import { View, BackHandler,TouchableOpacity } from 'react-native';
 import { TimeSelectComponent, SearchBarComponent } from './components';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { TokenScreen, TrackerScreen } from './screens'
 import TrackerProivider, { TrackerContext } from './context/TrackerContext';
 
@@ -38,7 +38,7 @@ const Body = (props) => {
         {props.scene ? <TrackerScreen /> : <TokenScreen />}
         <View style={{ position: 'absolute', bottom: 0, alignSelf: 'flex-end' }}>
             <TouchableOpacity onPress={() => setDarkTheme(!darkTheme)}>
-                <Ionicons name="ios-moon" size={24} color={darkTheme ? '#F6F6F6' : '#495162'} />
+                <FontAwesome5 name='moon' size={24} color={darkTheme ? '#F6F6F6' : '#495162'} />
             </TouchableOpacity>
         </View>
     </View>)

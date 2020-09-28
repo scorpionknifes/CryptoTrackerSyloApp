@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import Fontisto from 'react-native-vector-icons/Fontisto';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Dimensions, Image } from 'react-native';
 import { TrackerContext } from '../context/TrackerContext';
 
@@ -64,7 +64,7 @@ const CryptoBar = (props) => {
 
     return <View style={styles.container} >
         <TouchableOpacity onPress={handleBack}>
-            <Ionicons style={styles.backIcon} name='ios-arrow-back' size={24} color={darkTheme ? '#F6F6F6' : '#495162'} />
+            <SimpleLineIcons style={styles.backIcon} name='arrow-left' size={24} color={darkTheme ? '#F6F6F6' : '#495162'} />
         </TouchableOpacity>
         <View style={styles.cryptoContainer}>
             <Image
