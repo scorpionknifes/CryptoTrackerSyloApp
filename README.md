@@ -19,7 +19,9 @@ Published on Sylo Appstore
 
 ## Install using Sylo Experience
 
-Scan using [Sylo App](https://www.sylo.io/wallet/)
+Scan using [Sylo App](https://www.sylo.io/wallet/).
+
+v0.0.11 (last updated sep 28)
 
 <img src="/images/qrcode.png" width="400">
 
