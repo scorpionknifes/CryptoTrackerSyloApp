@@ -20,7 +20,8 @@ Published on Sylo Appstore
 ## Install using Sylo Experience
 
 Scan using [Sylo App](https://www.sylo.io/wallet/)
-![](/images/qrcode.png)
+
+<img src="/images/qrcode.png" width="400">
 
 ## Requirements
 
