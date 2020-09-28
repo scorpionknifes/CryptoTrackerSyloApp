@@ -17,6 +17,11 @@ Currently not published yet.
 - FlatList refresh and load more
 - React Context
 
+## Install using Sylo Experience
+
+Scan using [Sylo App](https://www.sylo.io/wallet/)
+![](/images/qrcode.png)
+
 ## Requirements
 
 - NodeJS
